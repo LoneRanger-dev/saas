@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+This is a [Next.js](https://nextjs.org) business idea generator powered by OpenAI.
 
 ## Getting Started
 
-First, run the development server:
+1. Copy `.env.example` to `.env.local`.
+2. Set `OPENAI_API_KEY` in `.env.local` to an OpenAI API key.
+3. Run the development server:
 
 ```bash
 npm run dev
